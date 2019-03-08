@@ -1,2 +1,17 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{title}}</p>
+
+
+<ul>
+{{#each users}}
+<li>name:{{this.name}}</li>
+<li>age:{{this.age}}</li>
+<li>description:{{this.text}}</li>
+
+<a href="/user/update/{{_id}}">update</a> <a href="/user/delete/{{_id}}">delete</a>
+<br><br>
+
+
+
+{{/each}}
+</ul>
