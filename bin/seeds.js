@@ -96,7 +96,7 @@ const users = [
 ]
 
 
-mongoose.connect(process.env.DBURL,  {useNewUrlParser: true})
+mongoose.connect(process.env.DB,  {useNewUrlParser: true})
 .then(() => {
   console.log(`Connect to mongo ${process.env.DBURL}`)
   return User.deleteMany();

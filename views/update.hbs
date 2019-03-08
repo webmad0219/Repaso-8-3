@@ -1,0 +1,20 @@
+<h1>hola caracola</h1>
+
+<form action="/user/update/{{users._id}}" method="post">
+  
+  
+  
+  <label for="name">Name:</label>
+  <input type="text" name="name" id="name" value="{{users.name}}">
+
+<label for="age">age:</label>
+  <input type="number" name="age" value="{{users.age}}">
+
+<label for="text">text:</label>
+  <input type="text" name="text" value="{{users.text}}">
+
+  
+
+
+  <button type="submit">Edit </button>
+</form>

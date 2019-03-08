@@ -1,3 +1,4 @@
+
 const {Schema, model} = require("mongoose");
 // Esto es igual a lo que hacemos siempre que es:
 /*
